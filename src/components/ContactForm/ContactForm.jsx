@@ -20,9 +20,8 @@ const nameFieldId = useId();
     });
     
     const handleSubmit = (values, actions) => {
-        values.id = nanoid();   
-        const { name, number } = values;
-        dispatch(addContact(name, number))
+      
+        dispatch(addContact(values))
         actions.resetForm();
     };
 
