@@ -2,7 +2,7 @@ import css from "./Contact.module.css"
 import { IoPerson } from "react-icons/io5";
 import { MdLocalPhone } from "react-icons/md";
 import { useDispatch } from "react-redux";
-import { deleteContact } from "../../redux/operations";
+import { deleteContact } from "../../redux/contactsOps";
 
 
 
